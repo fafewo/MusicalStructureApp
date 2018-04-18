@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.musicalstructureapp.MainActivity"
+    style="@style/BackgroundColor">
+
+    <TextView
+        android:id="@+id/lifestyle"
+        style="@style/PodcastCategory"
+
+        android:text="Lifestyle"
+        />
+    <TextView
+        android:id="@+id/motivation"
+        style="@style/PodcastCategory"
+
+        android:text="Motivation"
+        />
+    <TextView
+        android:id="@+id/android"
+        style="@style/PodcastCategory"
+
+        android:text="Android"
+        />
+    <TextView
+        android:id="@+id/sport"
+        style="@style/PodcastCategory"
+
+        android:text="Sport"
+        />
+
+</LinearLayout>
